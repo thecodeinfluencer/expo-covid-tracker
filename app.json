@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "COVID-19",
+    "slug": "covid-19",
+    "privacy": "public",
+    "android":{
+      "package":"com.codeinfluencer.covid19"
+    },
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#202125"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },"androidStatusBar":{
+      "backgroundColor":"#202125","barStyle":"light-content","translucent":false
+    },"androidNavigationBar":{
+      "backgroundColor":"#0b0b0d","barStyle":"light-content"
+    }
+  }
+}
